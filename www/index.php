@@ -6,7 +6,7 @@ use Rancoud\Application\Application;
 use Rancoud\Http\Message\Factory\Factory;
 
 $ds = \DIRECTORY_SEPARATOR;
-$rootDir = \dirname(__DIR__);
+$rootDir = $ds . 'opt' . $ds . 'blueprintue';
 require $rootDir . $ds . 'vendor' . $ds . 'autoload.php';
 
 $folders = [
